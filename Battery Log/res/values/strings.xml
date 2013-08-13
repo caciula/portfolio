@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Battery Consumption Tracker</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="title_activity_main">Battery Consumption Tracker</string>
+    <string name="title_activity_check_battery_log">Battery Consumption Log</string>
+    <string name="title_activity_check_battery_statistics">Statistics</string>
+    <string name="title_activity_create_entry">Create A New Entry</string>
+    
+    <string name="battery_image">image</string>
+    
+    <string name="main_log">Check battery log</string>
+    <string name="main_statistics">Check statistics</string>
+    
+    <string name="statistics_battery_used">Total overall battery-% used: </string>
+    <string name="statistics_battery_time">Total overall battery-time: </string>
+    <string name="statistics_battery_rate">Overall energy-consumption rate: </string>
+    
+    <string name="log_create_entry">Create entry</string>
+    <string name="log_delete_entry">Delete entry</string>
+    
+    <string name="create_date">Date: </string>
+    <string name="create_description">Description: </string>
+    <string name="create_starting_battery">Starting battery %: </string>
+    <string name="create_ending_battery">Ending battery %: </string>
+    <string name="create_time">Time:</string>
+    	<string name="create_time_hour">Hours: </string>
+    	<string name="create_time_minute">Minutes: </string>
+    	<string name="create_time_second">Seconds: </string>
+   	<string name="create_submit">Submit</string>
+    	
+</resources>

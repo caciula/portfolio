@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/statistics_battery_used"
+        android:contentDescription="@string/battery_image"
+        android:src="@drawable/battery_image" />
+    
+    <TextView android:id="@+id/statistics_battery_used"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_centerInParent="true"
+        android:text="@string/statistics_battery_used"
+        android:textSize="20sp" />
+    
+    <TextView android:id="@+id/statistics_battery_used_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/statistics_battery_used"
+       	android:layout_marginBottom="20dip"
+       	android:textSize="20sp" />
+    
+    <TextView android:id="@+id/statistics_battery_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statistics_battery_used_entry"
+        android:layout_centerHorizontal="true"
+        android:text="@string/statistics_battery_time"
+        android:textSize="20sp" />
+    
+    <TextView android:id="@+id/statistics_battery_time_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/statistics_battery_time"
+       	android:layout_marginBottom="20dip"
+       	android:textSize="20sp" />
+    
+    <TextView android:id="@+id/statistics_battery_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statistics_battery_time_entry"
+        android:layout_centerHorizontal="true"
+        android:text="@string/statistics_battery_rate"
+        android:textSize="20sp" />
+    
+    <TextView android:id="@+id/statistics_battery_rate_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/statistics_battery_rate"
+        android:textSize="20sp"/>
+    
+</RelativeLayout>
